@@ -3,8 +3,12 @@
 #define __CTRL_H__
 
 /*控制节点与1.电机控制通讯端口号为：8000；与2.步态检测通讯端口号为：8010*/
-// #define MOTOSERVER_PORT   8000 
-// #define GAITSERVER_PORT   8010 
+/*
+    IMU数据获取，pub端口号为：8011
+
+
+*/
+ 
 
 #define NODEID_OF_CTRL    0x01
 #define NODEID_OF_MOTOR   0x02
